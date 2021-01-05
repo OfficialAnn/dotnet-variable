@@ -1,0 +1,47 @@
+using System;
+
+namespace Clubconditonals
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int SusanAge = 0;
+            Console.Write("Hello Susan, Please enter your age: ");
+            SusanAge = int.Parse(Console.ReadLine());
+
+            if (SusanAge >= 18)
+            {
+                Console.WriteLine("Welcome to Ann Lounge, what would you like to order? ");
+            }
+          else if(SusanAge < 18) 
+           {
+             Console.WriteLine("You are too young to be here, please kindly leave!");
+           }
+          int ChristianaAge = 0;
+          Console.Write("Hello Christiana, Please enter your age: ");
+          ChristianaAge = int.Parse(Console.ReadLine());
+
+          if (ChristianaAge >= 18)
+          {
+              Console.WriteLine("Welcome to Ann Lounge, what would you like to order? ");
+          }
+          else if (ChristianaAge < 18)
+          {
+              Console.WriteLine("You are too young to be here, please kindly leave! ");
+          }
+          int JaelAge = 0;
+          Console.Write("Hello Jael, please enter your age: ");
+          JaelAge = int.Parse(Console.ReadLine());
+
+          if (JaelAge >= 18)
+          {
+              Console.WriteLine("welcome to Ann Lounge, what would you like to order? ");
+          }
+          else if (JaelAge < 18)
+          {
+              Console.WriteLine("You are too young to be here, please kindly leave! ");
+          }
+        }
+    }
+}          
